@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: left !important;
+}
+
+.detail {
+  height: 1200px;
+}
+
+.pembeli {
+  margin: 50px 75px;
+  width: 300px;
+}
+
+.pembeli a {
+  float: right;
+}
+
+.belanja {
+  margin: 75px;
+}
+
+.belanja table {
+  width: 400px;
+  text-align: center;
+}
+
+.belanja-form {
+  margin-top: 40px;
+}
+
+.mright {
+  margin-right: 40px;
+}
+
+.sel-width {
+  width: 300px;
+}
+
+.ringkasan {
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.ringkasan h2 {
+  margin-top: 10px;
+}
+
+.ringkasan table {
+  border-spacing: 0;
+  width: 300px;
+}

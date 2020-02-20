@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Atur Pesanan</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="sinv.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div>
+          <ul class="center">
+              <a href="index.html"><img src="gambar/logo.png" class="logo"></a>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Product</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a class="search"><input type="text" placeholder="Cari Sepatu..."></a></li>
+              <li style="float:right"><a href="signin.html">Login</a></li>
+              <li style="float:right"><a href="signup.html">Sign Up</a></li>
+          </ul>
+      </div>
+    </header>
+    <div class="heads" id="no-align">
+      <h1>Atur Pesanan</h1>
+    </div>
+    <div class="invoice-container detail">
+      <div class="pembeli">
+        <h2>Detail Pembeli</h2>
+        <p id="bold">Mohamed Salah</p>
+        <p>Jl. Html5 no. 322 Kecamatan Cilandak Jakarta Selatan 14045</p>
+        <a href="#">ubah alamat</a>
+      </div>
+      <div class="belanja">
+        <table>
+          <h2>Detail Belanja</h2>
+          <tr>
+            <td rowspan="2">
+              <img src="gambar/sepatu3.jpg" alt="" class="item-img">
+              <p>Victor Lahaye</p>
+            </td>
+            <td id="bold">Jumlah</td>
+          </tr>
+          <tr>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <a href="#">Tambah barang</a>
+            </td>
+          </tr>
+        </table>
+        <div class="belanja-form">
+          <form class="" action="invoice.html" method="post">
+            <label for="" class="mright">Jasa Pengiriman</label>
+            <select class="sel-width" name="">
+              <option value="jne">JNE</option>
+              <option value="ninjaexpress">NinjaExpress</option>
+              <option value="jnt">J&T</option>
+              <option value="wahana">Wahana</option>
+              <option value="sicepat">SiCepat</option>
+            </select>
+            <br><br>
+            <label for="catatan">Catatan</label><br>
+            <textarea name="catatan" rows="8" cols="80"></textarea>
+            <br><br>
+            <label for="">Pilih metode pembayaran</label><br>
+            <input type="radio" name="metode" value="transfer">
+            <label for="metode">Transfer bank</label><br>
+            <input type="radio" name="metode" value="indomaret">
+            <label for="metode">Indomaret</label><br>
+            <input type="radio" name="metode" value="alfamaret">
+            <label for="metode">Alfamaret</label>
+            <br><br>
+            <input type="submit" name="" value="Lanjutkan transaksi">
+          </form>
+        </div>
+
+      </div>
+      <div class="ringkasan">
+        <h2>Ringkasan Belanja</h2>
+        <table>
+          <tr>
+            <td>Harga barang</td>
+            <td>Rp.500,000-</td>
+          </tr>
+          <tr>
+            <td>Biaya kirim</td>
+            <td>Rp.10,000</td>
+          </tr>
+          <tr>
+            <td id="bold">Total</td>
+            <td>Rp.510,000-</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      &copy; InjekS
+    </footer>
+  </body>
+</html>
