@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #28A343;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#bold {
+  font-weight: bolder;
+}
+
+#logo {
+  width: 50px;
+  margin-left: 100px;
+}
+
+.item-img {
+  margin: none;
+  width: 60px;
+}
+
+#linkback {
+  text-decoration: none;
+  color: #00a8cc;
+  float: right;
+  margin-right: 100px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+#linkback:hover {
+  color: white;
+  background-color: #00a8cc;
+}
+
+header {
+  height: 50px;
+  background-color: white;
+}
+
+table {
+  width: 750px;
+  border-spacing: 20px;
+}
+
+.invoice-container {
+  width: 800px;
+  margin: 50px auto;
+  height: 1200px;
+  border: 2px solid #434e52;
+  background-color: #fffdf9;
+}
+
+.inv-detail, .inv-items {
+  margin: 20px;
+  width: 700px;
+}
+
+.inv-detail {
+  font-size: ;
+}
+
+.inv-items {
+  margin-top: 100px;
+}
+
+.inv-number {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heads {
+  background-color: #fffdf9;
+  height: 100px;
+  top: 0;
+}
+
+.mid {
+  text-align: center;
+}
+
+.border-bot {
+  border-bottom: 2px solid #ccc;
+}
+
+.tb-width75 {
+  width: 75%;
+}
+
+.tb-width50 {
+  width: 50%;
+}
+
+.tb-width25 {
+  width: 25%;
+}
+
+.p-bot {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1{
+  margin-left: 200px;
+  line-height: 100px;
+}
+
+footer {
+  height: 100px;
+  background-color: #fffdf9;
+  text-align: center;
+  line-height: 100px;
+}
