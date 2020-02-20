@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #28A343;
+  background-color: #28A343 !important;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -10,6 +10,7 @@ body {
 }
 
 #logo {
+  margin-top: 5px;
   width: 50px;
   margin-left: 100px;
 }
@@ -21,7 +22,7 @@ body {
 
 #linkback {
   text-decoration: none;
-  color: #00a8cc;
+  color: #28A343;
   float: right;
   margin-right: 100px;
   padding: 15px;
@@ -30,7 +31,7 @@ body {
 
 #linkback:hover {
   color: white;
-  background-color: #00a8cc;
+  background-color: #28A343;
 }
 
 header {
@@ -46,7 +47,7 @@ table {
 .invoice-container {
   width: 800px;
   margin: 50px auto;
-  height: 1200px;
+  min-height: 1000px;
   border: 2px solid #434e52;
   background-color: #fffdf9;
 }

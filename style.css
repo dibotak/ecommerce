@@ -14,12 +14,12 @@ ul {
     width: 100%;
     font-size: 20px;
   }
-  
+
   li {
     float: left;
     text-align: center;
   }
-  
+
   li a {
     display: block;
     color: black;
@@ -37,7 +37,7 @@ ul {
   }
 
   .logo {
-    width: 80px; 
+    width: 80px;
     height: 60px;
     float: left;
   }
@@ -72,7 +72,7 @@ ul {
     transform: translate(-50%, -50%);
     font-size: 50px;
   }
-  
+
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -87,7 +87,7 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
   }
-  
+
   div.container {
     text-align: center;
     padding: 10px 20px;
