@@ -4,13 +4,14 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0 0;
     padding: 0;
     overflow: hidden;
     background-color: #00c9a7;
     position: fixed;
     top: 0;
-    width: 98%;
+    right: 0;
+    width: 100%;
     font-size: 20px;
   }
   
@@ -90,4 +91,11 @@ ul {
   div.container {
     text-align: center;
     padding: 10px 20px;
+  }
+
+  footer {
+    height: 100px;
+    background-color: #fffdf9;
+    text-align: center;
+    line-height: 100px;
   }
