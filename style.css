@@ -1,0 +1,93 @@
+body {
+    background-color: #d5fe77;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00c9a7;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #39f077;
+  }
+
+  .center {
+    margin: auto;
+  }
+
+  .logo {
+    width: 80px; 
+    height: 60px;
+    float: left;
+  }
+
+  th {
+    width: 50%;
+  }
+
+  .img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #00ab6b;
+    padding: 10px;
+    grid-column-gap: 20px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  div.polaroid {
+    width: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
